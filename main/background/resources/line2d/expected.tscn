@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://du2f66gdvgeqa"]
+
+[node name="Expected" type="Line2D"]
+width = 4.0
+default_color = Color(0, 0.905882, 0.658824, 1)

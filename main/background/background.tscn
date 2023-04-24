@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctwi5n3pvt6ct"]
+
+[ext_resource type="Script" path="res://main/background/background.gd" id="1_sxai4"]
+
+[node name="Background" type="Node2D"]
+script = ExtResource("1_sxai4")
+
+[node name="Labels" type="Node2D" parent="."]
+
+[node name="Lines" type="Node2D" parent="."]
