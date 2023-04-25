@@ -1,5 +1,9 @@
-[gd_scene format=3 uid="uid://du2f66gdvgeqa"]
+[gd_scene load_steps=2 format=3 uid="uid://du2f66gdvgeqa"]
+
+[ext_resource type="Texture2D" uid="uid://dxb4rawmlp2es" path="res://assets/antialiased_line_6px.png" id="1_qye1b"]
 
 [node name="Expected" type="Line2D"]
-width = 4.0
+width = 6.0
 default_color = Color(0, 0.905882, 0.658824, 1)
+texture = ExtResource("1_qye1b")
+texture_mode = 2

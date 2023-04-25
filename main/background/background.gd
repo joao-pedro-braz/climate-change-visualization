@@ -16,7 +16,7 @@ const LOWER_VARIATION := "  -1°C  "
 
 
 @export var rebuild: bool:
-	set(value):
+	set(_value):
 		_build()
 
 

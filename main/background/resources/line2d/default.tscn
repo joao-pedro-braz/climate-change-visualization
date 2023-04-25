@@ -1,5 +1,9 @@
-[gd_scene format=3 uid="uid://bxfb5brbwkyds"]
+[gd_scene load_steps=2 format=3 uid="uid://bxfb5brbwkyds"]
+
+[ext_resource type="Texture2D" uid="uid://dxb4rawmlp2es" path="res://assets/antialiased_line_6px.png" id="1_tpde2"]
 
 [node name="Default" type="Line2D"]
-width = 4.0
+width = 6.0
 default_color = Color(0.952941, 0.843137, 0.278431, 1)
+texture = ExtResource("1_tpde2")
+texture_mode = 2
