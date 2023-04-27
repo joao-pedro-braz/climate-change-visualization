@@ -21,6 +21,9 @@ const LOWER_VARIATION := "  -1°C  "
 
 
 func _ready() -> void:
+	# Late execute
+	await get_tree().process_frame
+	
 	_build()
 
 
